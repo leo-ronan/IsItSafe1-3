@@ -4,6 +4,7 @@ import mapData from './../data/counties.json';
 //import mapDatapnt from './../data/countiesPoints.json';
 import "leaflet/dist/leaflet.css";
 import "./myMap.css";
+import "../components/API-Call.js";
 
 class MyMap extends Component {
     state = { color: "#fff00"};
