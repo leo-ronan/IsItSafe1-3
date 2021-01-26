@@ -26,8 +26,6 @@ countyStyle = {
 
 printMessageToConsole = (event) => {
     console.log(event.target.feature.properties);
-    var x = event.target.feature.properties
-    sessionStorage.setItem("target", JSON.stringify(x));
 };
 
 // changeCountyColor = (event) => {
