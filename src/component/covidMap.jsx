@@ -50,7 +50,7 @@ render() {
         return (
         <div class="covidMap">
             <h1 style={{ textAlign: "center" }} >Interactive Covid Map</h1>
-            <h3 style={{ textAlign: "center "}} >Click on your county to view current active cases.</h3>
+            <h3 style={{ textAlign: "center "}} >Double click on your county to view current active cases.</h3>
         <MapContainer style={{ height: "60vh", width: "90vh" }} zoom={2.5} center={[31.5, -96.4]}>
         <LayersControl position="topright">
       <LayersControl.BaseLayer checked name="OpenStreetMap.Mapnik">
