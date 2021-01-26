@@ -5,7 +5,7 @@ require("dotenv").config();
 const Local = () => {
   const [data, setData] = useState([]);
 
-  const api_key = process.env.WEATHERKEY;
+  const api_key = '71bd3c9de51567a495cc45c857ebcaf2';
 
   //api.openweathermap.org/data/2.5/forecast/daily?q={city name}&cnt={cnt}&appid={API key}
 
