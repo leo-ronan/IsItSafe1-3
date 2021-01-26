@@ -18,7 +18,7 @@ $(document).ready(function () {
         }
     }
     
-    $(".leaflet-interactive").on("click", function(event) {
+    $(".leaflet-interactive").on("dblclick", function(event) {
         //Get desired filters
         setTimeout(2000);
         var target = JSON.parse(sessionStorage.getItem("target"));
