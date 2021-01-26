@@ -19,11 +19,12 @@
     "react-leaflet": "^3.0.5",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
+    "serve": "^11.3.2",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
-    "start": "react-scripts --max_old_space_size=4096 start",
-    "build": "react-scripts --max_old_space_size=4096 build",
+    "start": "react-scripts --max_old_space_size=5192 start",
+    "build": "react-scripts --max_old_space_size=5192 build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
